@@ -1,0 +1,38 @@
+body {
+    font-family: 'Consolas', monospace;
+}
+
+#menu {
+    margin-right: 7.5%;
+    text-align: right;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.nav-button {
+    color: #000000;
+    background: linear-gradient(
+        to top,
+        black 5%,
+        white 15%,
+        white 85%,
+        black 95%
+    );
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+}
+
+.nav-button:hover {
+    border: none;
+    background: #000000;
+    padding: 20px;
+    color: #aaaaaa;
+}
